@@ -90,7 +90,7 @@ public class BluetoothDialogFragment extends DialogFragment {
                 if (mBlueAdapter.isEnabled()){
                     mBlueAdapter.disable();
                     Toast.makeText(getActivity(),"Turning off BlueTooth",Toast.LENGTH_LONG).show();
-//                    mBlueTv.setImageResource(R.drawable.ic_action_off);
+                    mBlueTv.setImageResource(R.drawable.ic_action_off);
                 }
 
                 else{

@@ -9,63 +9,11 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/statusBluetoothTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textColor="#000"/>
-
-    <ImageView
-        android:id="@+id/bluetoothTv"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
-
     <Button
         android:id="@+id/bluetoothPopupBtn"
         android:onClick="ShowPopup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pop"/>
-
-    <Button
-        android:id="@+id/onBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="On Btn"
-        style="@style/Widget.AppCompat.Button.Colored"/>
-
-    <Button
-        android:id="@+id/offBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Off Btn"
-        style="@style/Widget.AppCompat.Button.Colored"/>
-
-    <Button
-        android:id="@+id/discoverableBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Discover Bluetooth"
-        style="@style/Widget.AppCompat.Button.Colored"/>
-
-    <Button
-        android:id="@+id/pairedBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Get Paired Devices"
-        style="@style/Widget.AppCompat.Button.Colored"/>
-
-    <TextView
-        android:id="@+id/pairedTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textColor="#000"/>
-
-
-
 
 </LinearLayout>
