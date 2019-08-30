@@ -35,14 +35,14 @@ public class MainActivity extends AppCompatActivity {
         btnBluetoothSettings = findViewById(R.id.bluetoothPopupBtn);
 
 
-//        btnBluetoothSettings.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view) {
-//                DialogFragment bluetoothFragment = new BluetoothDialogFragment();
-//                bluetoothFragment.show(getSupportFragmentManager(), "bluetoothTag");
-//
-//            }
-//        });
+        btnBluetoothSettings.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                DialogFragment bluetoothFragment = new BluetoothDialogFragment();
+                bluetoothFragment.show(getSupportFragmentManager(), "bluetoothTag");
+
+            }
+        });
 
     }
 
