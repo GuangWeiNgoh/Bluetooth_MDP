@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_DISCOVER_BT = 1;
 
 
-
+// button
     Button btnBluetoothSettings;
 
     @Override
