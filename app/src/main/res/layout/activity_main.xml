@@ -9,12 +9,13 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/bluetoothPopupBtn"
         android:onClick="ShowPopup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BT"
-        android:gravity="end"/>
+        android:layout_gravity="right"
+        android:src="@drawable/ic_action_on"/>
 
 </LinearLayout>
